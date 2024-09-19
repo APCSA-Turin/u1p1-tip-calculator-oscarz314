@@ -6,8 +6,7 @@ public class TipCalculator {
         //DO NOT DELETE ANY OF THE CODE BELOW      
         StringBuilder result = new StringBuilder();
         //your code here
-        // Define
-
+        
         // Base costs
         double tipPercentage = (percent / 100.0);
         double costTotal = (cost + (cost * tipPercentage));
