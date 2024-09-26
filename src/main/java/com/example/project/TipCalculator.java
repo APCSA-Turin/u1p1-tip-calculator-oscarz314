@@ -1,4 +1,5 @@
 package com.example.project;
+import java.util.Scanner;  
 
 public class TipCalculator {
     //WRITE YOUR PROGRAM IN calculateTip
@@ -6,7 +7,7 @@ public class TipCalculator {
         //DO NOT DELETE ANY OF THE CODE BELOW      
         StringBuilder result = new StringBuilder();
         //your code here
-        
+
         // Base costs
         double tipPercentage = (percent / 100.0);
         double costTotal = (cost + (cost * tipPercentage));
@@ -33,10 +34,11 @@ public class TipCalculator {
      //TEST YOUR PROGRAM IN main
      public static void main(String[] args) {
         //try different values for people, percent, and cost to test your program before running test cases
-        // int people;
-        // int percent;
-        // double cost;     
-        // System.out.println(calculateTip(people,percent,cost));
+        // int people = 0;
+        // int percent = 0;
+        // double cost = 0;     
+
+        // System.out.print(calculateTip(people,percent,cost));
     }
 }
         
